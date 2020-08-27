@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export && vercel --prod --token MR0jFjleBeTLkUJ2eWwwWK0Q",
+    "build": "next build && next export && vercel --prod",
     "start": "next start"
   },
   "dependencies": {
@@ -24,6 +24,9 @@
     "styled-components": "^5.1.1",
     "url-loader": "^4.1.0",
     "vercel": "^20.0.0"
+  },
+  "resolutions": {
+    "uglify-es": "3.3.9"
   },
   "babel": {
     "env": {
